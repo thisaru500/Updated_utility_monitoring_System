@@ -27,20 +27,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        leading: const Padding(
-          padding: EdgeInsets.all(8.0),
-          child: TankIcon(size: 28.0),
-        ),
-        title: const Text('Smart Utility Monitoring'),
-      ),
-      body: const Center(
-        child: Text(
-          'Welcome to Smart Utility Monitoring System',
-          style: TextStyle(fontSize: 18),
-        ),
-      ),
+      body: Container(),
     );
   }
 }
